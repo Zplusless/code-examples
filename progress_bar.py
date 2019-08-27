@@ -25,7 +25,7 @@ for i in range(30):
     print('\r'+str(i)+'-'*i, end='',flush=True)
     time.sleep(0.2)
 
-# 证明\r后会有心输出的地方覆盖，没有新输出的地方会保留
+# 证明\r后会有新输出的地方覆盖，没有新输出的地方会保留
 for i in range(5):
     print('-------------', end='')
     time.sleep(0.5)
